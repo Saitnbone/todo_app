@@ -1,8 +1,13 @@
 import React from 'react'
+import Check from './Check';
+
 
 function TodoItem({todo}) {
   return (
-    <div>{todo.title}</div>
+      <div>
+        <Check/>
+      {todo.title}
+      </div>
   )
 };
 
